@@ -293,6 +293,15 @@ function commerce_currencies($enabled = FALSE) {
         'minor_unit' => t('Cent'),
         'symbol_placement' => 'before',
       ),
+      'DKK' => array (
+        'code' => 'DKK',
+        'numeric_code' => '208',
+        'name' => t('Danish krone'),
+        'symbol' => ' kr.',
+        'major_unit' => t('Krone'),
+        'minor_unit' => t('Øre'),
+        'symbol_placement' => 'after',
+      ),
     );
 
     // Add default values if they don't exist and convert to objects.
